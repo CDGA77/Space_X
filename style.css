@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(0,31,63);
+    background: linear-gradient(164deg, rgba(0,31,63,1) 18%, rgba(75,0,130,1) 96%);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: red;
+    margin: 40px;
+}
+
+.card{
+    background-image: url(espacio1.jpg);
+    border-radius: 25px;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8); /* Cambia el color de la sombra a rojo */
+  }
